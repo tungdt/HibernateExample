@@ -3,7 +3,7 @@
   <groupId>aivietnam.su3.test</groupId>
   <artifactId>HibernateExample</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.x-SNAPSHOT</version>
+  <version>1.0.7-SNAPSHOT</version>
   <name>HibernateExample</name>
   <url>http://maven.apache.org</url>
 
@@ -83,6 +83,13 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.10</version>
+        </dependency>
+        
+        <!-- The tutorials use the PostgreSQL 9.3.5 database -->
+        <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>9.3-1102-jdbc41</version>
         </dependency>
 
     <dependency>
