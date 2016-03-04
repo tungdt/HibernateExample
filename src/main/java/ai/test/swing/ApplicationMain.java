@@ -43,7 +43,7 @@ public class ApplicationMain {
         }
     }
    
-   private void run(){
+   public void run(){
        java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 listViewForm = new ListView();
